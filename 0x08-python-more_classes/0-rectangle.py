@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+'''empty class for rectangle'''
+
+
 class Rectangle:
-    """Represent a rectangle."""
+    '''forgot this useless comment'''
     pass
