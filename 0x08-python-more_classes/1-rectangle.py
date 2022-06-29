@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+'''module for shapes'''
+
+
 class Rectangle:
     """Represent a rectangle."""
 
