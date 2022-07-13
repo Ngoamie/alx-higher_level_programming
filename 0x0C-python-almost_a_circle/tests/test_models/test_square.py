@@ -199,7 +199,7 @@ class TestSquare_x(unittest.TestCase):
         with self.assertRaisesRegex(TypeError, "x must be an integer"):
             Square(1, (1, 2, 3))
 
-     def test_frozenset_x(self):
+    def test_frozenset_x(self):
         with self.assertRaisesRegex(TypeError, "x must be an integer"):
             Square(1, frozenset({1, 2, 3, 1}))
 
@@ -270,7 +270,8 @@ class TestSquare_y(unittest.TestCase):
     def test_frozenset_y(self):
         with self.assertRaisesRegex(TypeError, "y must be an integer"):
             Square(1, 3, frozenset({1, 2, 3, 1}))
-     def test_range_y(self):
+
+    def test_range_y(self):
         with self.assertRaisesRegex(TypeError, "y must be an integer"):
             Square(1, 3, range(5))
 
